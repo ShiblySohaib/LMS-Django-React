@@ -1,0 +1,98 @@
+/* Professional dashboard styling for enrollments table */
+.dashboard-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 28px 40px 28px;
+}
+
+.dashboard-container h2 {
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #22223b;
+  letter-spacing: 0.5px;
+}
+
+.dashboard-search {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f8fa;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+.dashboard-search:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.dashboard-table th, .dashboard-table td {
+  padding: 14px 12px;
+  text-align: left;
+}
+.dashboard-table th {
+  background: #f3f6fa;
+  color: #22223b;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+}
+.dashboard-table tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.15s;
+}
+.dashboard-table tr:hover {
+  background: #f6faff;
+}
+.dashboard-table td {
+  color: #3a3a3a;
+  font-size: 1rem;
+}
+.dashboard-table tr:last-child {
+  border-bottom: none;
+}
+.dashboard-table td[colspan="3"] {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+.dashboard-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+}
+
+.dashboard-card {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  min-width: 340px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.dashboard-card h1 {
+  color: #22223b;
+  margin-bottom: 1rem;
+}
+
+.dashboard-card p {
+  color: #22223b;
+  font-size: 1.1rem;
+}
